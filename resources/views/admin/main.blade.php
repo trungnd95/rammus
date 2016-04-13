@@ -34,6 +34,10 @@
   <script src="{{ url('public/admin/plugins/jQuery/jQuery-2.1.4.min.js') }}"></script>
    <!-- Nhung ckeditor và ckfinder -->
   <script src="{{ url('public/admin/js/ckeditor/ckeditor.js') }}"></script>
+  <script src="{{ url('public/admin/js/ckfinder/ckfinder.js') }}"></script>
+  <script>
+      var baseURL = "{!! url('/') !!}"
+  </script>
   <script src="{{ url('public/admin/js/func_ckfinder.js') }}"></script>
   <!-- Nhung ckeditor và ckfinder -->
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
